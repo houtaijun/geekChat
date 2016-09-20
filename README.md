@@ -1,5 +1,5 @@
 # geekChat
-geekChat是一个基于node.js高性能的web群聊工具
+geekChat是一个基于node.js高性能的web群聊工具\n
 依赖：
 |---socket.io 2.5.1
 |---express 0.9.2
