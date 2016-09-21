@@ -1,0 +1,16 @@
+{
+  "name": "geekchat",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.5.1",
+    "socket.io": "0.9.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "houtaijun",
+  "license": "ISC",
+  "description": ""
+}

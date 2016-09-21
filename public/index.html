@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<title>微聊</title>
+<link rel="stylesheet" type="text/css" href="/aui/css/aui.2.0.css" />
+<link href="/chat.css" rel="stylesheet">
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="aui/script/aui-dialog.js" ></script>
+<script type="text/javascript" src="/chat.js"></script>
+</head>
+<div class="aui-content-padded" style="overflow:hidden;margin-bottom:2rem;"> 
+<div class="aui-chat" >
+	<div id="header"></div>
+</div>
+</div>
+<div id="dialog"></div>
+
+<div class="aui-bar aui-bar-tab" id="footer"> 
+		<ul class="aui-list aui-form-list">
+		        <li class="aui-list-item">
+		            <div class="aui-list-item-inner">
+		                <div class="aui-list-item-input">
+		                    <input type="text" id="message" placeholder="我想说..">
+		                </div>
+		                <div class="aui-btn aui-btn-info aui-padding-r-10 " style="display:none;margin-right:0.5rem;"  id="send" >发送</div>
+		            </div>
+		        </li>
+		</ul>
+</div>
+</html>
+
