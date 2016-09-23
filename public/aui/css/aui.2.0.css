@@ -2330,15 +2330,15 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: transparent;
 }
 .aui-chat .aui-chat-left .aui-chat-arrow {
-    background-image: -webkit-linear-gradient(45deg, #b3e5fc, #b3e5fc 50%, transparent 50%);
-    background-image: linear-gradient(45deg, #b3e5fc, #b3e5fc 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(45deg, #ffffff, #ffffff 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #ffffff, #ffffff 50%, transparent 50%);
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     left: -0.25rem;
 }
 .aui-chat .aui-chat-right .aui-chat-arrow {
-    background-image: -webkit-linear-gradient(45deg, #ffffff, #ffffff 50%, transparent 50%);
-    background-image: linear-gradient(45deg, #ffffff, #ffffff 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(45deg, #b3e5fc, #b3e5fc 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #b3e5fc, #b3e5fc 50%, transparent 50%);
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
     right: -0.25rem;
@@ -2350,7 +2350,7 @@ input[type="search"]::-webkit-search-cancel-button {
     min-height: 2rem;
     position: relative;
     padding: 0.5rem;
-    max-width: 80%;
+    max-width: 90%;
     word-break: break-all;
     word-wrap: break-word;
 }
@@ -2387,7 +2387,7 @@ input[type="search"]::-webkit-search-cancel-button {
     max-width: 70%;
 }
 .aui-chat .aui-chat-left .aui-chat-content{
-    background-color: #b3e5fc;
+    background-color: #ffffff;
     float: left;
     left: 0.5rem;
 }
@@ -2405,7 +2405,7 @@ input[type="search"]::-webkit-search-cancel-button {
     text-align: right;
 }
 .aui-chat .aui-chat-right .aui-chat-content {
-    background-color: #ffffff;
+    background-color: #b3e5fc;
     right: 0.5rem;
     float: right;
 }

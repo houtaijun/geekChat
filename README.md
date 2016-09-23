@@ -7,3 +7,4 @@ geekChat是一个基于node.js高性能的web群聊工具<br>
 使用方法：
 ```npm install geekchat```
 
+
